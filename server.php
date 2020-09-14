@@ -64,7 +64,7 @@ if (isset($_POST['login_user'])) {
         if (mysqli_num_rows($results) == 1) {
           $_SESSION['Email'] = $email;
           $_SESSION['success'] = "You are now logged in";
-          header('location: uplaod/rr.html');
+          header('location: ../uplaod/rr.html');
         }else {
             array_push($errors, "Wrong e-mail/password combination");
         }
