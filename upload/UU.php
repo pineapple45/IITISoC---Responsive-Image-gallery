@@ -57,7 +57,6 @@
   ?>
         <form action="" method="POST" enctype="multipart/form-data">
           <h2>UPLOAD IMAGES</h2>
-          <P>Max 30 images</P>
           <div class="formgrp">
             <label for="Upload"></label>
           <input type="file" name="" placeholder=""="No file chosen.">
