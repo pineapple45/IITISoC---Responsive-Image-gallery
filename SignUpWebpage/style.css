@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("images/pexels-irina-iriser-785293.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-position: center center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+form {
+  width: 30em;
+  border: 2px solid #ffffff;
+  background: #ffffff;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 3em;
+  box-shadow: 0px 10px 15px #bca0dc;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}

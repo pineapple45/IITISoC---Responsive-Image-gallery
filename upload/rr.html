@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+  body {
+    display: table;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  background-image: url('15.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  .button {
+
+    border: none;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Candara, Helvetica, sans-serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    ont-weight: lighter;
+
+  }
+
+  .button1 {
+    background-color: inherit;
+    color: rgba(226, 254, 251, 1);
+
+
+  }
+
+  .button1:hover {
+color: rgba(226, 254, 251, 1);
+
+    background-color:rgba(255, 255, 255, 0.10);
+
+  }
+
+  .button2 {
+    background-color: inherit;
+    color: rgba(226, 254, 251, 1);
+
+  }
+
+  .button2:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+    color: rgba(226, 254, 251, 1);
+  }
+
+  .row {
+    display: table-row;
+    height: 50%;
+  }
+  @media screen and (min-width: 601px) {
+    .button{
+      font-size: 60px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .button {
+      font-size: 30px;
+    }
+  }
+
+</style>
+</head>
+<body>
+  <div class="row">
+  <a href="view.html"><button class="button button1">VIEW</button></a> <br>
+
+  </div>
+
+  <div class="row">
+    <a href="UU.html"><button  class="button button2">UPLOAD</button></a>
+  </div>
+</body>
+</html>
